@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "ai-writing",
+    "name": "AI Writing",
+    "description": "AI-powered writing assistants, copy generators, and content tools.",
+    "icon": "✍️"
+  },
+  {
+    "slug": "ai-video",
+    "name": "AI Video",
+    "description": "Video generation, editing, and AI-powered production tools.",
+    "icon": "🎬"
+  },
+  {
+    "slug": "ai-productivity",
+    "name": "AI Productivity",
+    "description": "Workflow automation, meeting assistants, and productivity boosters.",
+    "icon": "⚡"
+  },
+  {
+    "slug": "apps",
+    "name": "Apps",
+    "description": "Mobile and desktop AI applications worth trying.",
+    "icon": "📱"
+  }
+]

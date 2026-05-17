@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ToolRadar — AI Tools Navigation
+
+A minimalist AI tools directory built with **Next.js** and **Tailwind CSS**. Discover trending AI tools, browse categories, read detailed reviews, and explore curated rankings.
+
+## Features
+
+- **Home** — Hero, latest tools, app rankings, category navigation, newsletter
+- **Categories** — Card grid with search and tag filtering (`/category/[slug]`)
+- **Tool details** — Full reviews with SEO metadata (`/tools/[slug]`)
+- **Rankings** — Top lists with ratings and images (`/rankings/[slug]`)
+- **Dark mode** — System preference + manual toggle
+- **JSON data** — No database required (`data/*.json`)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit these files to add or update content:
 
-## Learn More
+- `data/tools.json` — Tool listings and detail content
+- `data/categories.json` — Category definitions
+- `data/rankings.json` — Ranking articles
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/ai-tools-nav)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push this repo to GitHub
+2. Import the project on [vercel.com](https://vercel.com)
+3. Deploy — no environment variables required
 
-## Deploy on Vercel
+Or use the CLI:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npx vercel
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+- Next.js 16 (App Router)
+- React 19
+- Tailwind CSS v4
+- next-themes
+- TypeScript
+
+## Project Structure
+
+```
+data/           # JSON content
+src/
+  app/          # Routes (pages)
+  components/   # UI components
+  lib/          # Data helpers
+  types/        # TypeScript types
+```
+
+## License
+
+MIT
