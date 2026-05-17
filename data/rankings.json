@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "top-10-ai-writing-tools-2026",
+    "title": "Top 10 AI Writing Tools 2026",
+    "description": "Our curated ranking of the best AI writing tools for bloggers, marketers, and teams in 2026.",
+    "category": "ai-writing",
+    "publishedAt": "2026-05-01",
+    "coverImage": "https://images.unsplash.com/photo-1455390582261-044cdead277a?w=1200&h=630&fit=crop",
+    "items": [
+      { "rank": 1, "toolSlug": "chatgpt", "rating": 4.8, "summary": "The most versatile AI writer for everyday use and coding.", "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop" },
+      { "rank": 2, "toolSlug": "claude", "rating": 4.7, "summary": "Best for long-form content and nuanced writing.", "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop" },
+      { "rank": 3, "toolSlug": "jasper", "rating": 4.5, "summary": "Top choice for marketing teams needing brand consistency.", "image": "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=800&h=450&fit=crop" },
+      { "rank": 4, "toolSlug": "copy-ai", "rating": 4.4, "summary": "Excellent for sales copy and GTM workflows.", "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop" },
+      { "rank": 5, "toolSlug": "writesonic", "rating": 4.3, "summary": "Strong SEO blogging features at an affordable price.", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=450&fit=crop" },
+      { "rank": 6, "toolSlug": "notion-ai", "rating": 4.2, "summary": "Perfect if your team already lives in Notion.", "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=450&fit=crop" },
+      { "rank": 7, "toolSlug": "perplexity", "rating": 4.1, "summary": "Research-backed writing with cited sources.", "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop" },
+      { "rank": 8, "toolSlug": "gemini", "rating": 4.0, "summary": "Great for Google Workspace users.", "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&h=450&fit=crop" },
+      { "rank": 9, "toolSlug": "chatgpt", "rating": 3.9, "summary": "Reliable fallback for quick drafts.", "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop" },
+      { "rank": 10, "toolSlug": "claude", "rating": 3.8, "summary": "Solid for technical documentation.", "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop" }
+    ]
+  },
+  {
+    "slug": "best-ai-video-tools-2026",
+    "title": "Best AI Video Tools 2026",
+    "description": "Compare the leading AI video generators and editors for creators and businesses.",
+    "category": "ai-video",
+    "publishedAt": "2026-05-05",
+    "coverImage": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&h=630&fit=crop",
+    "items": [
+      { "rank": 1, "toolSlug": "runway", "rating": 4.9, "summary": "Industry leader for creative AI video generation.", "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=450&fit=crop" },
+      { "rank": 2, "toolSlug": "pika", "rating": 4.6, "summary": "Fast and fun for social media clips.", "image": "https://images.unsplash.com/photo-1536240471120-6b6d5e0a0b0b?w=800&h=450&fit=crop" },
+      { "rank": 3, "toolSlug": "heygen", "rating": 4.5, "summary": "Best for avatar videos and translation.", "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=450&fit=crop" },
+      { "rank": 4, "toolSlug": "synthesia", "rating": 4.4, "summary": "Enterprise training videos without a studio.", "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=450&fit=crop" }
+    ]
+  },
+  {
+    "slug": "top-ai-productivity-apps-2026",
+    "title": "Top AI Productivity Apps 2026",
+    "description": "Boost your workflow with these top-rated AI productivity tools.",
+    "category": "ai-productivity",
+    "publishedAt": "2026-05-08",
+    "coverImage": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=630&fit=crop",
+    "items": [
+      { "rank": 1, "toolSlug": "perplexity", "rating": 4.8, "summary": "AI search with citations for fast research.", "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop" },
+      { "rank": 2, "toolSlug": "notion-ai", "rating": 4.6, "summary": "AI inside your knowledge base.", "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=450&fit=crop" },
+      { "rank": 3, "toolSlug": "otter-ai", "rating": 4.5, "summary": "Never miss a meeting detail again.", "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=450&fit=crop" },
+      { "rank": 4, "toolSlug": "fireflies", "rating": 4.4, "summary": "Sales-focused meeting intelligence.", "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=450&fit=crop" }
+    ]
+  },
+  {
+    "slug": "best-ai-mobile-apps-2026",
+    "title": "Best AI Mobile Apps 2026",
+    "description": "The must-have AI apps for your phone in 2026.",
+    "category": "apps",
+    "publishedAt": "2026-05-12",
+    "coverImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&h=630&fit=crop",
+    "items": [
+      { "rank": 1, "toolSlug": "gemini", "rating": 4.7, "summary": "Google's flagship AI on Android and iOS.", "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&h=450&fit=crop" },
+      { "rank": 2, "toolSlug": "character-ai", "rating": 4.5, "summary": "Engaging character chats on the go.", "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop" },
+      { "rank": 3, "toolSlug": "replika", "rating": 4.2, "summary": "AI companion for daily conversations.", "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=450&fit=crop" },
+      { "rank": 4, "toolSlug": "perplexity", "rating": 4.4, "summary": "Research anywhere with cited answers.", "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop" }
+    ]
+  }
+]
