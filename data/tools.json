@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "ChatGPT",
-    "logo": "https://example.com/logos/chatgpt.png",
+    "logo": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
     "category": "AI Writing",
     "description": "AI-powered conversational assistant for generating text, emails, and more.",
     "features": ["Text generation", "Conversation", "Code assistance"],
@@ -20,7 +20,7 @@
   {
     "id": 2,
     "name": "MidJourney",
-    "logo": "https://example.com/logos/midjourney.png",
+    "logo": "https://www.google.com/s2/favicons?domain=midjourney.com&sz=128",
     "category": "AI Image",
     "description": "AI tool for creating images from text prompts.",
     "features": ["Text-to-image", "Custom styles", "High-res output"],
@@ -33,7 +33,7 @@
   {
     "id": 3,
     "name": "Jasper AI",
-    "logo": "https://example.com/logos/jasper.png",
+    "logo": "https://www.google.com/s2/favicons?domain=jasper.ai&sz=128",
     "category": "AI Writing",
     "description": "AI writing assistant for marketing, copywriting, and content creation.",
     "features": ["Marketing copy", "Blog posts", "SEO content"],
@@ -46,7 +46,7 @@
   {
     "id": 4,
     "name": "Canva AI",
-    "logo": "https://example.com/logos/canva.png",
+    "logo": "https://static.canva.com/static/images/favicon.ico",
     "category": "AI Design",
     "description": "AI-assisted design tool for creating graphics, presentations, and social media content.",
     "features": ["Templates", "AI text-to-image", "Brand kit"],
@@ -59,7 +59,7 @@
   {
     "id": 5,
     "name": "DALL·E",
-    "logo": "https://example.com/logos/dalle.png",
+    "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
     "category": "AI Image",
     "description": "Text-to-image generation AI by OpenAI.",
     "features": ["Text-to-image", "Inpainting", "High-res"],
@@ -72,7 +72,7 @@
   {
     "id": 6,
     "name": "Notion AI",
-    "logo": "https://example.com/logos/notion.png",
+    "logo": "https://www.notion.so/images/favicon.ico",
     "category": "AI Productivity",
     "description": "AI-powered note-taking, task management, and content generation inside Notion.",
     "features": ["Summarize notes", "Generate content", "Task suggestions"],
@@ -85,7 +85,7 @@
   {
     "id": 7,
     "name": "Runway",
-    "logo": "https://example.com/logos/runway.png",
+    "logo": "https://app.runwayml.com/favicon.ico",
     "category": "AI Video",
     "description": "AI video editing and creation platform.",
     "features": ["Text-to-video", "Background removal", "Green screen effects"],
@@ -98,7 +98,7 @@
   {
     "id": 8,
     "name": "Lumen5",
-    "logo": "https://example.com/logos/lumen5.png",
+    "logo": "https://www.google.com/s2/favicons?domain=lumen5.com&sz=128",
     "category": "AI Video",
     "description": "AI-powered video creation for social media content.",
     "features": ["Text-to-video", "Templates", "Stock media"],
@@ -111,7 +111,7 @@
   {
     "id": 9,
     "name": "Otter.ai",
-    "logo": "https://example.com/logos/otter.png",
+    "logo": "https://otter.ai/favicon.ico",
     "category": "AI Productivity",
     "description": "AI transcription and meeting note assistant.",
     "features": ["Live transcription", "Meeting summary", "Searchable notes"],
@@ -124,7 +124,7 @@
   {
     "id": 10,
     "name": "ElevenLabs",
-    "logo": "https://example.com/logos/elevenlabs.png",
+    "logo": "https://elevenlabs.io/favicon.ico",
     "category": "AI Voice",
     "description": "AI text-to-speech platform for natural voice generation.",
     "features": ["Realistic voice", "Multi-language", "Voice cloning"],
@@ -137,7 +137,7 @@
   {
     "id": 11,
     "name": "Writesonic",
-    "logo": "https://example.com/logos/writesonic.png",
+    "logo": "https://writesonic.com/favicon.ico",
     "category": "AI Writing",
     "description": "AI content generation for blogs, ads, and social media.",
     "features": ["Blog posts", "Ad copy", "Landing pages"],
@@ -150,7 +150,7 @@
   {
     "id": 12,
     "name": "CopyAI",
-    "logo": "https://example.com/logos/copyai.png",
+    "logo": "https://www.google.com/s2/favicons?domain=copy.ai&sz=128",
     "category": "AI Writing",
     "description": "AI marketing copy generator for social media and ads.",
     "features": ["Ad copy", "Social posts", "Brainstorming"],
@@ -163,7 +163,7 @@
   {
     "id": 13,
     "name": "Synthesia",
-    "logo": "https://example.com/logos/synthesia.png",
+    "logo": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=128",
     "category": "AI Video",
     "description": "Create AI videos with avatars from text.",
     "features": ["AI avatars", "Text-to-video", "Multiple languages"],
@@ -176,7 +176,7 @@
   {
     "id": 14,
     "name": "Pictory",
-    "logo": "https://example.com/logos/pictory.png",
+    "logo": "https://pictory.ai/favicon.ico",
     "category": "AI Video",
     "description": "Text-to-video AI tool for social media content.",
     "features": ["AI video", "Summarize text to video", "Templates"],
@@ -189,7 +189,7 @@
   {
     "id": 15,
     "name": "Stable Diffusion",
-    "logo": "https://example.com/logos/stablediffusion.png",
+    "logo": "https://www.google.com/s2/favicons?domain=stability.ai&sz=128",
     "category": "AI Image",
     "description": "Open-source AI image generation platform.",
     "features": ["Text-to-image", "Inpainting", "Custom models"],
@@ -202,7 +202,7 @@
   {
     "id": 16,
     "name": "Replit Ghostwriter",
-    "logo": "https://example.com/logos/replit.png",
+    "logo": "https://replit.com/public/icons/favicon-prompt-192.png",
     "category": "AI Coding",
     "description": "AI coding assistant integrated in Replit IDE.",
     "features": ["Code completion", "Debug suggestions", "Language support"],
@@ -215,7 +215,7 @@
   {
     "id": 17,
     "name": "GitHub Copilot",
-    "logo": "https://example.com/logos/copilot.png",
+    "logo": "https://github.githubassets.com/favicons/favicon.png",
     "category": "AI Coding",
     "description": "AI assistant for coding in VSCode and GitHub.",
     "features": ["Code completion", "Comment explanation", "Multi-language"],
@@ -228,7 +228,7 @@
   {
     "id": 18,
     "name": "Tabnine",
-    "logo": "https://example.com/logos/tabnine.png",
+    "logo": "https://www.tabnine.com/favicon.ico",
     "category": "AI Coding",
     "description": "AI code completion assistant for multiple editors.",
     "features": ["Code completion", "Snippets", "Supports multiple languages"],
@@ -241,7 +241,7 @@
   {
     "id": 19,
     "name": "Beautiful.ai",
-    "logo": "https://example.com/logos/beautifulai.png",
+    "logo": "https://www.beautiful.ai/favicon.ico",
     "category": "AI Design",
     "description": "AI presentation builder for slides and decks.",
     "features": ["Slide templates", "Design suggestions", "AI content"],
@@ -254,7 +254,7 @@
   {
     "id": 20,
     "name": "Visme",
-    "logo": "https://example.com/logos/visme.png",
+    "logo": "https://www.visme.co/favicon.ico",
     "category": "AI Design",
     "description": "Design tool with AI-assisted content and graphics creation.",
     "features": ["Templates", "AI design suggestions", "Charts & visuals"],
