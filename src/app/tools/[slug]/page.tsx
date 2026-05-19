@@ -4,9 +4,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   buildToolMetadata,
+  findToolByReference,
   getTool,
   getToolSlugs,
-  getTools,
 } from "@/lib/data";
 
 interface PageProps {
@@ -40,10 +40,9 @@ export default async function ToolDetailPage({ params }: PageProps) {
 
   if (!tool) notFound();
 
-  const allTools = getTools();
   const alternatives = tool.alternatives
-    .map((altSlug) => allTools.find((t) => t.slug === altSlug))
-    .filter(Boolean);
+    .map((ref) => findToolByReference(ref))
+    .filter((t): t is NonNullable<typeof t> => Boolean(t));
 
   return (
     <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
@@ -63,21 +62,29 @@ export default async function ToolDetailPage({ params }: PageProps) {
             {tool.tags.map((tag) => (
               <Link
                 key={tag}
-                href={`/category/${tool.category}?tag=${tag}`}
+                href={`/category/${tool.categorySlug}?tag=${encodeURIComponent(tag)}`}
                 className="rounded-full border border-card-border px-3 py-0.5 text-xs text-muted hover:border-accent"
               >
                 {tag}
               </Link>
             ))}
           </div>
-          <a
-            href={tool.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 inline-flex rounded-lg bg-accent px-6 py-2.5 text-sm font-medium text-white hover:bg-accent-hover"
+          {tool.website && (
+            <a
+              href={tool.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex rounded-lg bg-accent px-6 py-2.5 text-sm font-medium text-white hover:bg-accent-hover"
+            >
+              Visit Website →
+            </a>
+          )}
+          <Link
+            href={`/category/${tool.categorySlug}`}
+            className="mt-4 ml-0 inline-flex rounded-lg border border-card-border px-6 py-2.5 text-sm font-medium hover:border-accent/50 sm:ml-3"
           >
-            Visit Website →
-          </a>
+            Browse {tool.category} →
+          </Link>
         </div>
       </header>
 

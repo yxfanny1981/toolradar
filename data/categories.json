@@ -6,6 +6,18 @@
     "icon": "✍️"
   },
   {
+    "slug": "ai-image",
+    "name": "AI Image",
+    "description": "Text-to-image generators and AI art creation platforms.",
+    "icon": "🖼️"
+  },
+  {
+    "slug": "ai-design",
+    "name": "AI Design",
+    "description": "AI-assisted design, presentations, and visual content tools.",
+    "icon": "🎨"
+  },
+  {
     "slug": "ai-video",
     "name": "AI Video",
     "description": "Video generation, editing, and AI-powered production tools.",
@@ -18,9 +30,15 @@
     "icon": "⚡"
   },
   {
-    "slug": "apps",
-    "name": "Apps",
-    "description": "Mobile and desktop AI applications worth trying.",
-    "icon": "📱"
+    "slug": "ai-voice",
+    "name": "AI Voice",
+    "description": "Text-to-speech, voice cloning, and audio generation tools.",
+    "icon": "🎙️"
+  },
+  {
+    "slug": "ai-coding",
+    "name": "AI Coding",
+    "description": "AI code assistants and IDE-integrated development tools.",
+    "icon": "💻"
   }
 ]

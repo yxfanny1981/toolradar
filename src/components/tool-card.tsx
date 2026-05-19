@@ -27,7 +27,10 @@ export function ToolCard({ tool }: ToolCardProps) {
         </div>
       </div>
       <div className="mt-4 flex flex-wrap gap-1.5">
-        {tool.tags.slice(0, 3).map((tag) => (
+        <span className="rounded-full bg-accent/10 px-2 py-0.5 text-xs text-accent">
+          {tool.category}
+        </span>
+        {tool.tags.slice(0, 2).map((tag) => (
           <span
             key={tag}
             className="rounded-full bg-background px-2 py-0.5 text-xs text-muted"

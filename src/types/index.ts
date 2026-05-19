@@ -10,24 +10,42 @@ export interface FAQ {
   answer: string;
 }
 
-export interface Tool {
-  slug: string;
+/** Shape stored in data/tools.json */
+export interface ToolRaw {
+  id: number;
   name: string;
-  category: string;
-  tags: string[];
   logo: string;
-  screenshot: string;
+  category: string;
   description: string;
-  website: string;
   features: string[];
   pros: string[];
   cons: string[];
-  audience: string;
   pricing: string;
   faq: FAQ[];
   alternatives: string[];
+}
+
+/** Normalized tool used across the app */
+export interface Tool extends ToolRaw {
+  slug: string;
+  categorySlug: string;
+  tags: string[];
+  screenshot: string;
+  website?: string;
+  audience: string;
   featured: boolean;
-  createdAt: string;
+}
+
+/** Shape stored in data/rankings.json */
+export interface RankingRaw {
+  id: number;
+  title: string;
+  slug: string;
+  description: string;
+  tools: number[];
+  image: string;
+  seoTitle: string;
+  seoDescription: string;
 }
 
 export interface RankingItem {
@@ -38,10 +56,8 @@ export interface RankingItem {
   image: string;
 }
 
-export interface Ranking {
-  slug: string;
-  title: string;
-  description: string;
+/** Normalized ranking used across the app */
+export interface Ranking extends RankingRaw {
   category: string;
   publishedAt: string;
   coverImage: string;

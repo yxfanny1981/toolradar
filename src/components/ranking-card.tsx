@@ -31,7 +31,7 @@ export function RankingCard({ ranking }: RankingCardProps) {
         </p>
         <h3 className="mt-1 font-semibold group-hover:text-accent">{ranking.title}</h3>
         <p className="mt-2 line-clamp-2 text-sm text-muted">{ranking.description}</p>
-        <p className="mt-3 text-xs text-accent">{ranking.items.length} tools ranked →</p>
+        <p className="mt-3 text-xs text-accent">{ranking.tools.length} tools ranked →</p>
       </div>
     </Link>
   );

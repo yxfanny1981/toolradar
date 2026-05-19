@@ -1,11 +1,77 @@
 import categoriesData from "../../data/categories.json";
 import toolsData from "../../data/tools.json";
 import rankingsData from "../../data/rankings.json";
-import type { Category, Ranking, Tool } from "@/types";
+import type { Category, Ranking, RankingRaw, Tool, ToolRaw } from "@/types";
 
 const categories = categoriesData as Category[];
-const tools = toolsData as Tool[];
-const rankings = rankingsData as Ranking[];
+
+export function slugify(value: string): string {
+  return value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export function categoryToSlug(categoryName: string): string {
+  return slugify(categoryName);
+}
+
+function normalizeTool(raw: ToolRaw): Tool {
+  const categorySlug = categoryToSlug(raw.category);
+
+  return {
+    ...raw,
+    slug: slugify(raw.name),
+    categorySlug,
+    tags: raw.features,
+    screenshot: raw.logo,
+    audience: `Teams and individuals looking for ${raw.category.toLowerCase()} solutions.`,
+    featured: raw.id <= 6,
+  };
+}
+
+const tools: Tool[] = (toolsData as ToolRaw[]).map(normalizeTool);
+
+export function getToolById(id: number): Tool | undefined {
+  return tools.find((t) => t.id === id);
+}
+
+function normalizeRanking(raw: RankingRaw): Ranking {
+  const items = raw.tools.map((toolId, index) => {
+    const tool = getToolById(toolId);
+    return {
+      rank: index + 1,
+      toolSlug: tool?.slug ?? String(toolId),
+      rating: Math.round((4.9 - index * 0.15) * 10) / 10,
+      summary: tool?.description ?? "",
+      image: tool?.logo ?? raw.image,
+    };
+  });
+
+  const firstTool = getToolById(raw.tools[0]);
+
+  return {
+    ...raw,
+    coverImage: raw.image,
+    category: firstTool?.categorySlug ?? "",
+    publishedAt: `2026-05-${String(10 + raw.id).padStart(2, "0")}`,
+    items,
+  };
+}
+
+const rankings: Ranking[] = (rankingsData as RankingRaw[]).map(normalizeRanking);
+
+export function findToolByReference(ref: string): Tool | undefined {
+  const refSlug = slugify(ref);
+  return tools.find(
+    (t) =>
+      t.slug === refSlug ||
+      t.name.toLowerCase() === ref.toLowerCase() ||
+      slugify(t.name) === refSlug
+  );
+}
 
 export function getCategories(): Category[] {
   return categories;
@@ -24,13 +90,11 @@ export function getTool(slug: string): Tool | undefined {
 }
 
 export function getToolsByCategory(categorySlug: string): Tool[] {
-  return tools.filter((t) => t.category === categorySlug);
+  return tools.filter((t) => t.categorySlug === categorySlug);
 }
 
 export function getLatestTools(limit = 6): Tool[] {
-  return [...tools]
-    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
-    .slice(0, limit);
+  return [...tools].sort((a, b) => b.id - a.id).slice(0, limit);
 }
 
 export function getFeaturedTools(limit = 6): Tool[] {
@@ -52,12 +116,7 @@ export function getRanking(slug: string): Ranking | undefined {
 }
 
 export function getLatestRankings(limit = 4): Ranking[] {
-  return [...rankings]
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    )
-    .slice(0, limit);
+  return [...rankings].sort((a, b) => b.id - a.id).slice(0, limit);
 }
 
 export function getRankingsByCategory(categorySlug: string): Ranking[] {
@@ -85,7 +144,7 @@ export function buildToolMetadata(tool: Tool) {
 
 export function buildRankingMetadata(ranking: Ranking) {
   return {
-    title: ranking.title,
-    description: ranking.description,
+    title: ranking.seoTitle,
+    description: ranking.seoDescription,
   };
 }
