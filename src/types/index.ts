@@ -12,37 +12,40 @@ export interface FAQ {
 
 /** Shape stored in data/tools.json */
 export interface ToolRaw {
-  id: number;
+  id: string;
   name: string;
-  logo: string;
-  category: string;
   description: string;
-  features: string[];
-  pros: string[];
-  cons: string[];
-  pricing: string;
-  faq: FAQ[];
-  alternatives: string[];
+  url: string;
+  category: string;
+  tags: string[];
+  image: string;
+  content: string;
 }
 
 /** Normalized tool used across the app */
 export interface Tool extends ToolRaw {
   slug: string;
   categorySlug: string;
-  tags: string[];
+  logo: string;
   screenshot: string;
-  website?: string;
+  website: string;
+  features: string[];
+  pros: string[];
+  cons: string[];
+  pricing: string;
+  faq: FAQ[];
+  alternatives: string[];
   audience: string;
   featured: boolean;
 }
 
 /** Shape stored in data/rankings.json */
 export interface RankingRaw {
-  id: number;
+  id: string;
   title: string;
   slug: string;
   description: string;
-  tools: number[];
+  tools: string[];
   image: string;
   seoTitle: string;
   seoDescription: string;

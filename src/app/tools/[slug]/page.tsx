@@ -100,6 +100,11 @@ export default async function ToolDetailPage({ params }: PageProps) {
       </div>
 
       <section className="mt-12">
+        <h2 className="text-xl font-semibold">Overview</h2>
+        <p className="mt-4 leading-relaxed text-muted">{tool.content}</p>
+      </section>
+
+      <section className="mt-12">
         <h2 className="text-xl font-semibold">Features</h2>
         <ul className="mt-4 grid gap-2 sm:grid-cols-2">
           {tool.features.map((feature) => (
@@ -134,10 +139,6 @@ export default async function ToolDetailPage({ params }: PageProps) {
         </section>
       </div>
 
-      <section className="mt-12">
-        <h2 className="text-xl font-semibold">Who It&apos;s For</h2>
-        <p className="mt-3 text-muted">{tool.audience}</p>
-      </section>
 
       <section className="mt-12 rounded-xl border border-card-border bg-card p-6">
         <h2 className="text-xl font-semibold">Pricing</h2>

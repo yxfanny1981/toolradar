@@ -18,32 +18,50 @@ export function categoryToSlug(categoryName: string): string {
   return slugify(categoryName);
 }
 
-function normalizeTool(raw: ToolRaw): Tool {
+function heroImage(image: string): string {
+  return image.replace("w=120", "w=1200").replace("q=60", "q=80");
+}
+
+function normalizeTool(raw: ToolRaw, index: number): Tool {
   const categorySlug = categoryToSlug(raw.category);
 
   return {
     ...raw,
-    slug: slugify(raw.name),
+    slug: raw.id,
     categorySlug,
-    tags: raw.features,
-    screenshot: raw.logo,
-    audience: `Teams and individuals looking for ${raw.category.toLowerCase()} solutions.`,
-    featured: raw.id <= 6,
+    logo: raw.image,
+    screenshot: heroImage(raw.image),
+    website: raw.url,
+    features: raw.tags,
+    pros: [
+      `Strong ${raw.category} workflows`,
+      `Trusted by teams using ${raw.name}`,
+      "Regular model and feature updates",
+    ],
+    cons: [
+      "Advanced features may require a paid plan",
+      "Learning curve for power-user settings",
+    ],
+    pricing: "Free tier available / Paid plans for pro features",
+    faq: [],
+    alternatives: [],
+    audience: raw.content,
+    featured: index < 8,
   };
 }
 
 const tools: Tool[] = (toolsData as ToolRaw[]).map(normalizeTool);
 
-export function getToolById(id: number): Tool | undefined {
-  return tools.find((t) => t.id === id);
+export function getToolById(id: string): Tool | undefined {
+  return tools.find((t) => t.id === id || t.slug === id);
 }
 
-function normalizeRanking(raw: RankingRaw): Ranking {
+function normalizeRanking(raw: RankingRaw, index: number): Ranking {
   const items = raw.tools.map((toolId, index) => {
     const tool = getToolById(toolId);
     return {
       rank: index + 1,
-      toolSlug: tool?.slug ?? String(toolId),
+      toolSlug: tool?.slug ?? toolId,
       rating: Math.round((4.9 - index * 0.15) * 10) / 10,
       summary: tool?.description ?? "",
       image: tool?.logo ?? raw.image,
@@ -56,20 +74,23 @@ function normalizeRanking(raw: RankingRaw): Ranking {
     ...raw,
     coverImage: raw.image,
     category: firstTool?.categorySlug ?? "",
-    publishedAt: `2026-05-${String(10 + raw.id).padStart(2, "0")}`,
+    publishedAt: `2026-05-${String(11 + index).padStart(2, "0")}`,
     items,
   };
 }
 
-const rankings: Ranking[] = (rankingsData as RankingRaw[]).map(normalizeRanking);
+const rankings: Ranking[] = (rankingsData as RankingRaw[]).map((raw, index) =>
+  normalizeRanking(raw, index),
+);
 
 export function findToolByReference(ref: string): Tool | undefined {
   const refSlug = slugify(ref);
   return tools.find(
     (t) =>
+      t.id === ref ||
       t.slug === refSlug ||
       t.name.toLowerCase() === ref.toLowerCase() ||
-      slugify(t.name) === refSlug
+      slugify(t.name) === refSlug,
   );
 }
 
@@ -86,7 +107,7 @@ export function getTools(): Tool[] {
 }
 
 export function getTool(slug: string): Tool | undefined {
-  return tools.find((t) => t.slug === slug);
+  return tools.find((t) => t.slug === slug || t.id === slug);
 }
 
 export function getToolsByCategory(categorySlug: string): Tool[] {
@@ -94,7 +115,7 @@ export function getToolsByCategory(categorySlug: string): Tool[] {
 }
 
 export function getLatestTools(limit = 6): Tool[] {
-  return [...tools].sort((a, b) => b.id - a.id).slice(0, limit);
+  return tools.slice(0, limit);
 }
 
 export function getFeaturedTools(limit = 6): Tool[] {
@@ -116,7 +137,7 @@ export function getRanking(slug: string): Ranking | undefined {
 }
 
 export function getLatestRankings(limit = 4): Ranking[] {
-  return [...rankings].sort((a, b) => b.id - a.id).slice(0, limit);
+  return rankings.slice(0, limit);
 }
 
 export function getRankingsByCategory(categorySlug: string): Ranking[] {
@@ -138,7 +159,7 @@ export function getCategorySlugs(): string[] {
 export function buildToolMetadata(tool: Tool) {
   return {
     title: `${tool.name} Review — Features, Pricing & Alternatives`,
-    description: `${tool.description} Compare features, pros & cons, pricing, and top alternatives to ${tool.name}.`,
+    description: `${tool.description} ${tool.content}`,
   };
 }
 
