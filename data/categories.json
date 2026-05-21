@@ -1,44 +1,50 @@
 [
   {
+    "slug": "ai-chatbots",
+    "name": "AI Chatbots",
+    "description": "Best AI chatbots and conversational assistants for support, research, coding, and daily productivity.",
+    "icon": "💬"
+  },
+  {
     "slug": "ai-writing",
     "name": "AI Writing",
-    "description": "AI-powered writing assistants, copy generators, and content tools.",
+    "description": "AI writing tools, free AI writers, copy generators, and SEO content assistants for blogs and marketing.",
     "icon": "✍️"
-  },
-  {
-    "slug": "ai-image",
-    "name": "AI Image",
-    "description": "Text-to-image generators and AI art creation platforms.",
-    "icon": "🖼️"
-  },
-  {
-    "slug": "ai-design",
-    "name": "AI Design",
-    "description": "AI-assisted design, presentations, and visual content tools.",
-    "icon": "🎨"
-  },
-  {
-    "slug": "ai-video",
-    "name": "AI Video",
-    "description": "Video generation, editing, and AI-powered production tools.",
-    "icon": "🎬"
-  },
-  {
-    "slug": "ai-productivity",
-    "name": "AI Productivity",
-    "description": "Workflow automation, meeting assistants, and productivity boosters.",
-    "icon": "⚡"
-  },
-  {
-    "slug": "ai-voice",
-    "name": "AI Voice",
-    "description": "Text-to-speech, voice cloning, and audio generation tools.",
-    "icon": "🎙️"
   },
   {
     "slug": "ai-coding",
     "name": "AI Coding",
-    "description": "AI code assistants and IDE-integrated development tools.",
+    "description": "AI coding assistants, IDE copilots, and agentic programming tools for developers and indie hackers.",
     "icon": "💻"
+  },
+  {
+    "slug": "ai-image",
+    "name": "AI Image",
+    "description": "AI image generators, text-to-image models, and free AI art tools for design and social media.",
+    "icon": "🖼️"
+  },
+  {
+    "slug": "ai-video",
+    "name": "AI Video",
+    "description": "AI video generators, text-to-video software, and AI editing tools for YouTube and marketing.",
+    "icon": "🎬"
+  },
+  {
+    "slug": "ai-audio",
+    "name": "AI Audio",
+    "description": "AI voice generators, text-to-speech, AI music makers, and podcast audio enhancement tools.",
+    "icon": "🎵"
+  },
+  {
+    "slug": "ai-design",
+    "name": "AI Design",
+    "description": "AI design tools for graphics, presentations, websites, and brand assets without a design degree.",
+    "icon": "🎨"
+  },
+  {
+    "slug": "productivity",
+    "name": "Productivity",
+    "description": "AI productivity tools for notes, meetings, scheduling, automation, and team knowledge management.",
+    "icon": "⚡"
   }
 ]

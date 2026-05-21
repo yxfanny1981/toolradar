@@ -1,52 +1,341 @@
 [
   {
     "id": 1,
-    "title": "Top 10 AI Writing Tools 2026",
-    "slug": "top-10-ai-writing-tools-2026",
-    "description": "Best AI writing tools to boost your content creation in 2026.",
-    "tools": [1, 3, 11, 12, 6],
-    "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1600&q=80",
-    "seoTitle": "Top 10 AI Writing Tools for 2026",
-    "seoDescription": "Discover the best AI writing tools in 2026 for blogs, marketing, and social media content."
+    "title": "Top 10 AI Coding Assistants in 2026",
+    "slug": "top-10-ai-coding-assistants-2026",
+    "description": "Compare the best AI coding assistants for VS Code, JetBrains, and cloud IDEs. From GitHub Copilot to Cursor and Codeium—find the top AI programmer tools for faster shipping in 2026.",
+    "tools": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top 10 AI Coding Assistants in 2026 | Best AI Programmer Tools",
+    "seoDescription": "Ranked list of the best AI coding assistants in 2026: Copilot, Cursor, Codeium, Tabnine, and more. Free & paid AI tools for developers and indie hackers."
   },
   {
     "id": 2,
-    "title": "Top 10 AI Image Generators 2026",
-    "slug": "top-10-ai-image-generators-2026",
-    "description": "Best AI tools to generate stunning images from text prompts.",
-    "tools": [2, 5, 15],
+    "title": "Best Free AI Image Generators",
+    "slug": "best-free-ai-image-generators",
+    "description": "Discover the best free AI image generators for social posts, ads, and concept art. Leonardo AI, Ideogram, Playground, DALL·E, and Stable Diffusion compared for zero-budget creators.",
+    "tools": [
+      26,
+      27,
+      29,
+      30,
+      32,
+      28
+    ],
     "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80",
-    "seoTitle": "Top 10 AI Image Generators for 2026",
-    "seoDescription": "Explore the most popular AI image generators for creating high-quality visuals in 2026."
+    "seoTitle": "Best Free AI Image Generators (2026) | Text-to-Image Tools",
+    "seoDescription": "Top free AI art and image generators in 2026. Compare DALL·E, Leonardo, Ideogram, Playground AI, and open-source Stable Diffusion for free AI images."
   },
   {
     "id": 3,
-    "title": "Top 5 AI Video Tools 2026",
-    "slug": "top-5-ai-video-tools-2026",
-    "description": "AI platforms to create, edit, and enhance video content effortlessly.",
-    "tools": [7, 8, 13, 14],
-    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1600&q=80",
-    "seoTitle": "Top 5 AI Video Tools 2026",
-    "seoDescription": "Create amazing videos with the best AI video tools of 2026 for social media and marketing."
+    "title": "Must-have AI Tools for Indie Hackers",
+    "slug": "must-have-ai-tools-for-indie-hackers",
+    "description": "The ultimate stack of AI tools for solo founders: chatbots, coding IDEs, automation, and free AI writers. Ship your SaaS faster with ChatGPT, Cursor, Zapier AI, and Notion AI.",
+    "tools": [
+      1,
+      5,
+      18,
+      10,
+      55,
+      51,
+      22,
+      29
+    ],
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Must-Have AI Tools for Indie Hackers (2026 Startup Stack)",
+    "seoDescription": "Best AI tools for indie hackers and solo founders: coding assistants, free AI writers, automation, and productivity apps to build and launch in 2026."
   },
   {
     "id": 4,
-    "title": "Top AI Productivity Tools 2026",
-    "slug": "top-ai-productivity-tools-2026",
-    "description": "Best AI tools to enhance your productivity and manage tasks efficiently.",
-    "tools": [6, 9, 16, 17, 18],
-    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1600&q=80",
-    "seoTitle": "Top AI Productivity Tools 2026",
-    "seoDescription": "Boost your workflow with the best AI productivity tools in 2026 for work and personal use."
+    "title": "Top AI Video Generation Software",
+    "slug": "top-ai-video-generation-software",
+    "description": "Best AI video generation software for marketing, training, and YouTube. Runway Gen-3, HeyGen avatars, Synthesia, Pictory, and InVideo AI ranked for quality and ease of use.",
+    "tools": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top AI Video Generation Software (2026) | Text-to-Video Tools",
+    "seoDescription": "Compare the best AI video generators in 2026: Runway, HeyGen, Synthesia, Pictory, Lumen5, and InVideo. Create AI videos without a studio."
   },
   {
     "id": 5,
-    "title": "Top AI Design Tools 2026",
-    "slug": "top-ai-design-tools-2026",
-    "description": "Best AI-powered tools for graphic design, presentations, and creative content.",
-    "tools": [4, 19, 20],
+    "title": "Top 10 AI Writing Tools 2026",
+    "slug": "top-10-ai-writing-tools-2026",
+    "description": "Best AI writing tools for blogs, SEO, and marketing copy. Jasper, Copy.ai, Writesonic, Grammarly, and Rytr—ranked for quality, templates, and free AI writer tiers.",
+    "tools": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      1
+    ],
+    "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top 10 AI Writing Tools for 2026 | Best Free AI Writers",
+    "seoDescription": "Discover the top AI writing tools in 2026 for SEO blogs, ads, and email. Compare Jasper, Copy.ai, Writesonic, Grammarly, and affordable free AI writers."
+  },
+  {
+    "id": 6,
+    "title": "Top 10 AI Image Generators 2026",
+    "slug": "top-10-ai-image-generators-2026",
+    "description": "The most powerful AI image generators in 2026: Midjourney, FLUX, DALL·E 3, Adobe Firefly, and Leonardo. Best text-to-image AI tools for designers and marketers.",
+    "tools": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top 10 AI Image Generators for 2026 | Best AI Art Tools",
+    "seoDescription": "Ranked top AI image generators in 2026: Midjourney, FLUX, DALL·E, Firefly, Leonardo, Ideogram. Create stunning AI art and marketing visuals."
+  },
+  {
+    "id": 7,
+    "title": "Best AI Chatbots for Customer Support 2026",
+    "slug": "best-ai-chatbots-customer-support-2026",
+    "description": "Best AI chatbots for customer support, sales, and FAQ automation. ChatGPT, Claude, Gemini, Copilot, and Perplexity compared for accurate, grounded answers.",
+    "tools": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Best AI Chatbots for Customer Support (2026)",
+    "seoDescription": "Top AI chatbots for customer support and business in 2026. Compare ChatGPT, Claude, Gemini, Microsoft Copilot, and Perplexity for enterprise AI assistants."
+  },
+  {
+    "id": 8,
+    "title": "Top AI Productivity Tools for Remote Teams",
+    "slug": "top-ai-productivity-tools-remote-teams",
+    "description": "Boost remote team productivity with Notion AI, Otter, Motion, Reclaim, Zapier AI, and Mem. Best AI workspace and meeting tools for distributed companies in 2026.",
+    "tools": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top AI Productivity Tools for Remote Teams (2026)",
+    "seoDescription": "Best AI productivity tools for remote teams: Notion AI, Otter.ai, Motion, Reclaim, Zapier, and Mem. Automate notes, scheduling, and workflows in 2026."
+  },
+  {
+    "id": 9,
+    "title": "Best AI Voice & Audio Tools 2026",
+    "slug": "best-ai-voice-audio-tools-2026",
+    "description": "Top AI voice generators and audio editors: ElevenLabs, Murf, Suno, Udio, Descript, and Adobe Podcast. Best AI audio tools for podcasts, music, and video dubbing.",
+    "tools": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "image": "https://images.unsplash.com/photo-1478737271069-78c9d5ff805b?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Best AI Voice & Audio Tools (2026) | TTS & Music AI",
+    "seoDescription": "Compare the best AI voice generators and AI music tools in 2026: ElevenLabs, Murf, Suno, Udio, Descript. Free and paid AI audio for creators."
+  },
+  {
+    "id": 10,
+    "title": "Top AI Design Tools for Marketers",
+    "slug": "top-ai-design-tools-for-marketers",
+    "description": "Best AI design tools for marketing teams: Canva AI, Adobe Express, Visme, Beautiful.ai, and Figma AI. Create ads, decks, and infographics with generative AI in minutes.",
+    "tools": [
+      45,
+      47,
+      49,
+      48,
+      46,
+      30
+    ],
     "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1600&q=80",
-    "seoTitle": "Top AI Design Tools 2026",
-    "seoDescription": "Discover the most effective AI design tools in 2026 for creating stunning visuals and presentations."
+    "seoTitle": "Top AI Design Tools for Marketers (2026)",
+    "seoDescription": "Best AI graphic design tools for marketers in 2026: Canva, Adobe Express, Visme, Beautiful.ai, Figma AI. Free AI design for social and ads."
+  },
+  {
+    "id": 11,
+    "title": "Best AI Tools for Content Creators",
+    "slug": "best-ai-tools-for-content-creators",
+    "description": "Creator stack: ChatGPT, Midjourney, Runway, ElevenLabs, Pictory, and Canva AI. The best AI tools for YouTubers, TikTokers, and newsletter writers scaling content in 2026.",
+    "tools": [
+      1,
+      25,
+      33,
+      39,
+      35,
+      45,
+      41
+    ],
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Best AI Tools for Content Creators (2026)",
+    "seoDescription": "Top AI tools for content creators: writing, image, video, voice, and design AI apps for YouTube, TikTok, and social media growth in 2026."
+  },
+  {
+    "id": 12,
+    "title": "Top Free AI Tools in 2026",
+    "slug": "top-free-ai-tools-2026",
+    "description": "The best free AI tools you can use today: ChatGPT, Gemini, Perplexity, Codeium, Leonardo, Copy.ai, Otter, and Canva. No credit card required to start.",
+    "tools": [
+      1,
+      3,
+      5,
+      22,
+      29,
+      10,
+      52,
+      45
+    ],
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top Free AI Tools in 2026 (No Credit Card)",
+    "seoDescription": "Best free AI tools in 2026: free AI chatbots, coders, image generators, writers, and meeting assistants. Start with zero budget."
+  },
+  {
+    "id": 13,
+    "title": "Best AI Presentation & Slide Tools",
+    "slug": "best-ai-presentation-slide-tools",
+    "description": "Best AI presentation makers: Beautiful.ai, Canva Present, Visme, and Figma slides. Generate pitch decks and sales slides with AI layout and copy in 2026.",
+    "tools": [
+      48,
+      45,
+      49,
+      46
+    ],
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Best AI Presentation Tools (2026) | AI Slide Deck Makers",
+    "seoDescription": "Top AI presentation and slide tools in 2026. Beautiful.ai, Canva, Visme, and Figma AI for automated pitch decks and marketing slides."
+  },
+  {
+    "id": 14,
+    "title": "Top AI Music Generators: Suno vs Udio",
+    "slug": "top-ai-music-generators-suno-vs-udio",
+    "description": "Compare the best AI music generators Suno and Udio for full songs with vocals. Plus alternatives for royalty-free background tracks and creator workflows in 2026.",
+    "tools": [
+      41,
+      42,
+      39
+    ],
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top AI Music Generators 2026 | Suno vs Udio Compared",
+    "seoDescription": "Best AI music generators in 2026: Suno vs Udio for AI songs with vocals. Free AI music tools for creators, video, and podcasts."
+  },
+  {
+    "id": 15,
+    "title": "Best AI Meeting & Note-Taking Tools",
+    "slug": "best-ai-meeting-note-taking-tools",
+    "description": "Best AI meeting assistants: Otter.ai, Notion AI, Descript, and Mem. Transcribe Zoom calls, summarize action items, and sync notes to your wiki automatically.",
+    "tools": [
+      52,
+      51,
+      43,
+      56
+    ],
+    "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Best AI Meeting & Note-Taking Tools (2026)",
+    "seoDescription": "Top AI meeting transcription and note-taking tools in 2026: Otter, Notion AI, Descript, Mem. Free AI meeting summaries for remote teams."
+  },
+  {
+    "id": 16,
+    "title": "Top AI Tools for Startups & SaaS",
+    "slug": "top-ai-tools-for-startups-saas",
+    "description": "AI stack for startups: Claude for docs, Cursor for code, Jasper for GTM copy, Zapier for ops, and Perplexity for research. Scale your SaaS with the best AI tools in 2026.",
+    "tools": [
+      2,
+      18,
+      9,
+      55,
+      5,
+      34
+    ],
+    "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top AI Tools for Startups & SaaS (2026)",
+    "seoDescription": "Best AI tools for startups and SaaS teams in 2026: coding, writing, automation, research, and video AI for lean growth teams."
+  },
+  {
+    "id": 17,
+    "title": "Best AI SEO & Marketing Writing Tools",
+    "slug": "best-ai-seo-marketing-writing-tools",
+    "description": "Best AI writers for SEO blogs, ad copy, and conversion: Jasper, Writesonic, Anyword, Copy.ai, and Grammarly. Rank higher with AI content workflows in 2026.",
+    "tools": [
+      9,
+      11,
+      16,
+      10,
+      12
+    ],
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Best AI SEO & Marketing Writing Tools (2026)",
+    "seoDescription": "Top AI SEO writing tools and marketing copy generators in 2026. Jasper, Writesonic, Anyword, Copy.ai for blogs, ads, and landing pages."
+  },
+  {
+    "id": 18,
+    "title": "Top AI Video Editors for YouTube Creators",
+    "slug": "top-ai-video-editors-youtube-creators",
+    "description": "Best AI video tools for YouTube: Pictory, InVideo AI, Descript, Runway, and Lumen5. Repurpose blogs into clips, auto-captions, and generative B-roll for creators.",
+    "tools": [
+      35,
+      38,
+      43,
+      33,
+      36
+    ],
+    "image": "https://images.unsplash.com/photo-1611162616305-c69b3a7a0d02?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top AI Video Editors for YouTube Creators (2026)",
+    "seoDescription": "Best AI video editing and repurposing tools for YouTube in 2026: Pictory, InVideo, Descript, Runway, Lumen5. Grow your channel with AI."
+  },
+  {
+    "id": 19,
+    "title": "Best Claude & GPT Alternatives 2026",
+    "slug": "best-claude-gpt-alternatives-2026",
+    "description": "Top alternatives to ChatGPT and Claude: Google Gemini, Perplexity, Poe, Meta AI, and Microsoft Copilot. Compare free AI chatbots for research, coding, and writing.",
+    "tools": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      2
+    ],
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Best Claude & ChatGPT Alternatives (2026)",
+    "seoDescription": "Best ChatGPT and Claude alternatives in 2026: Gemini, Copilot, Perplexity, Poe, Meta AI. Free AI chatbots compared."
+  },
+  {
+    "id": 20,
+    "title": "Top AI Automation Tools for No-Code Teams",
+    "slug": "top-ai-automation-tools-no-code-teams",
+    "description": "Best AI automation platforms: Zapier AI, Notion AI, and Copilot in Microsoft 365. Build workflows, chatbots, and agents without engineering headcount in 2026.",
+    "tools": [
+      55,
+      51,
+      4,
+      10
+    ],
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80",
+    "seoTitle": "Top AI Automation Tools for No-Code Teams (2026)",
+    "seoDescription": "Best AI automation tools in 2026 for no-code teams: Zapier AI, Notion AI, Microsoft Copilot. Automate marketing, sales, and ops workflows."
   }
 ]
